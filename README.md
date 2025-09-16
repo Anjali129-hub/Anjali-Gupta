@@ -1,12 +1,58 @@
-# React + Vite
+Anjali Gupta Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio built with React and Vite.
+This project showcases my work, skills, and contact information in a clean, responsive, and modern interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Vite setup for fast development and hot module replacement (HMR).
 
-## Expanding the ESLint configuration
+1. Fully responsive design for desktop, tablet, and mobile devices.
+2. Smooth scrolling navigation using react-anchor-link-smooth-scroll
+3. Mobile-friendly navigation menu with toggle open/close functionality.
+4. Section-wise active state indicator with underline animation.
+5. Organized project showcase with images and links.
+6. Contact section with email, location, and social links.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Stack
+
+Frontend: React, JSX, CSS
+Build Tool: Vite
+Linting & Code Quality: ESLint
+Smooth Scrolling: react-anchor-link-smooth-scroll
+Version Control: Git & GitHub
+
+## Project Structure
+
+portfolio-react/
+├─ public/           # Static files (PDF resume, icons, etc.)
+├─ src/
+│  ├─ Components/    # React components (Navbar, Hero, About, Work, Contact, Footer)
+│  ├─ assets/        # Images, icons, and project screenshots
+│  ├─ App.jsx        # Main application component
+│  ├─ main.jsx       # Entry point
+│  └─ index.css      # Global styles
+├─ package.json       # Project dependencies
+└─ vite.config.js     # Vite configuration
+
+## Getting Started
+
+1. # Clone the repository
+
+git clone https://github.com/Anjali129-hub/Anjali-Gupta.git
+cd portfolio-react
+
+2. # Install dependencies
+npm install
+
+3. # Run the development server
+npm run dev
+
+4. # Open your browser at
+ http://localhost:5173  
+
+## Contact
+
+Email: your-email@example.com
+GitHub: https://github.com/Anjali129-hub
+LinkedIn: www.linkedin.com/in/anjali-gupta-6b8427281
