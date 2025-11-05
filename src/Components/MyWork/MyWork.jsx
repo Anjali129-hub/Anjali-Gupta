@@ -13,9 +13,21 @@ const MyWork = () => {
             </div>
 
             <div className="mywork-container">
-               {mywork_data.map((work,index)=>{
-                return <img key={index} src={work.w_img} alt=''/>
-               })}
+      {mywork_data.map((work, index) => {
+  const handleClick = () => {
+    window.open(work.w_live || work.w_github, "_blank");
+  };
+
+  return (
+    <div className="work-card" key={index} onClick={handleClick}>
+      <img src={work.w_img} alt={work.w_name} />
+      <div className="work-card-content">
+        <p>{work.w_name}</p>
+      </div>
+    </div>
+  );
+})}
+
             </div>
         <div className="mywork-showmore">
             <p>Show more</p>
