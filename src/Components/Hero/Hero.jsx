@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div id='home' className='hero'>
             <img src={profile_img} alt="Profile" />
-            <h2><span>I’m Anjali Gupta, </span>A passionate Web Developer crafting responsive, user-friendly websites and web apps.</h2>
+            <h3><span>I’m Anjali Gupta, </span>A passionate Web Developer crafting responsive, user-friendly websites and web apps.</h3>
             <p>
                 I’m a web developer focused on building responsive, user-friendly websites and apps with clean code and modern design.
             </p>
