@@ -3,6 +3,7 @@ import project2_img from '../assets/project2_img.png'
 import project3_img from '../assets/project3_img.png'
 import project4_img from '../assets/project4_img.png'
 import project5_img from '../assets/project5_img.png'
+import project6_img from '../assets/project6_img.png'   // ✅ Added missing import
 
 const mywork_data = [
     {
@@ -35,8 +36,15 @@ const mywork_data = [
     },
     {
         w_no: 5,
-        w_name: "Task Manager",
+        w_name: "BitLinks",
         w_img: project5_img,
+        w_github: "https://github.com/Anjali129-hub/BitLinks",
+        w_live: "https://bit-links-vgah.vercel.app/"
+    },
+    {
+        w_no: 6,
+        w_name: "Task Manager",
+        w_img: project6_img,   // ✅ Now it's valid
         w_github: "https://github.com/Anjali129-hub/task-manager"
     },
 ]
